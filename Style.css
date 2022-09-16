@@ -1,12 +1,12 @@
 
 body {
-    background-color: lightblue;
-    margin: 0px;
+    background-color: #add8e6;
   }
   
   h1 {
     font-family: 'Chakra Petch', sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 75px;
     margin: 0px;
+    line-height: -20px;
   }
