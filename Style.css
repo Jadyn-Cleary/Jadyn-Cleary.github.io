@@ -6,4 +6,6 @@ body {
   h1 {
     font-family: 'Chakra Petch', sans-serif;
     text-align: center;
+    font-size: 100px;
+    padding-top: 0px;
   }
