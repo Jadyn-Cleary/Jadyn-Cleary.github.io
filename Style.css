@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(https://jadyn-cleary.github.io/background.png);
+    background-image: url("https://jadyn-cleary.github.io/background.png");
     background-repeat: repeat;
   }
   
@@ -24,9 +24,5 @@ body {
     grid-template-columns: auto auto auto auto;
     align-items: center;
     justify-content: center;
-    padding:50px;
-  }
-
-  .grid-element {
-    padding: 50px;
+    grid-gap: 50px;
   }
