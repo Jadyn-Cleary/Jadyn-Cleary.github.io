@@ -53,6 +53,7 @@ img {
     height: 25px;
     border-radius: 50%; 
     border: #000000;
+    border-width: 2pt;
     background: #ffffff;
     cursor: pointer;
   }
@@ -62,6 +63,7 @@ img {
     height: 25px;
     border-radius: 50%;
     border: #000000;
+    border-width: 2pt;
     background: #ffffff;
     cursor: pointer;
   }
