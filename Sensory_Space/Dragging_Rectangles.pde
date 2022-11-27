@@ -32,7 +32,7 @@ class Car {
 }
 
 void setup() {
-  size(1000,700);
+  size(700,700);
   background(0);
   c = new Car[7]; // initialize array
   int y = -100;
@@ -41,7 +41,7 @@ void setup() {
     r = random(255);
     g = random(255);
     b = random(255);
-    c[i] = new Car(color(r,g,b),0,y, 400, 100);
+    c[i] = new Car(color(r,g,b),0,y, 250, 100);
     c[i].selected = false;
   }
 }
