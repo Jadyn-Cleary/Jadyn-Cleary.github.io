@@ -31,6 +31,13 @@ img {
     align-items: center;
 }
 
+.vertical-flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .slidecontainer {
     width: 50%; /* Width of the outside container */
   }
