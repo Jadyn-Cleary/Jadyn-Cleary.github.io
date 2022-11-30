@@ -24,12 +24,13 @@ img {
     margin:auto;
 }
 
-.button {
-  background-color: none;
+button {
+  background-color: white;
   border: none;
   text-align: center;
   text-decoration: none;
   align-self: center;
+  margin-left: auto;
 }
 
 .flex-container{
