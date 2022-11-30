@@ -24,6 +24,14 @@ img {
     margin:auto;
 }
 
+.button {
+  background-color: none;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -36,8 +44,8 @@ img {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .slidecontainer {
