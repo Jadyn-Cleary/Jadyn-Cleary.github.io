@@ -50,8 +50,26 @@
     </p>
     
 
+    <div>
+      <button onclick="next()" 
+                id="forward"><i class="arrow left"></i>
+         </button>
+        <button onClick="previous()" 
+                id="backward"><i class="arrow right"></i>
+         </button>
+    </div>
+
+    <script>
+      function next() {
+          window.history.forward();
+      }
+      function previous() {
+          window.history.back();
+      }
+    </script>
+
     <p><i class="arrow left"></i> <a href="https://jadyn-cleary.github.io/Sensory_Space/sense_selection.html"><i class="arrow right"></i></a></p>
   </body>
-  //<script src="scripts/main.js"></script>
-  //<script src="scripts/jcolor.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/jcolor.js"></script>
 </html>

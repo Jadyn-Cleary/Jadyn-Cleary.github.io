@@ -54,6 +54,25 @@
 
     </div>
 
+    <div>
+      <button onclick="next()" 
+                id="forward"><i class="arrow left"></i>
+         </button>
+        <button onClick="previous()" 
+                id="backward"><i class="arrow right"></i>
+         </button>
+    </div>
+
+    <script>
+      function next() {
+          window.history.forward();
+      }
+      function previous() {
+          window.history.back();
+      }
+    </script>
+
+
     <p><a href="https://jadyn-cleary.github.io"><i class="arrow left"></i></a> <i class="arrow right"></i></p>
   </body>
   </html>
