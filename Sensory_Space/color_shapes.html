@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensory Space</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <h2>Refresh the page to change the colors!</h2>
+    </div>
+    <canvas data-processing-sources="Color_Shapes.pde" width="100vw" height="100vw"></canvas>
+    <canvas data-processing-sources="Color_Shapes.pde" width="100vw" height="100vw"></canvas>
+    <canvas data-processing-sources="Color_Shapes.pde" width="100vw" height="100vw"></canvas>
+    <div class="row">
+        <a href="#" class="arrow left" onClick="previous()" id="backward"></a>
+        <a href="#" class="arrow right" onClick="next()" id="forward"></a>
+    </div>
+</body>
+<script>
+    function setWidth(width) {
+        var canvas = document.getElementById("myCanvas");
+        canvas.width = width;
+    }
+    function next() {
+        window.history.forward();
+    }
+    function previous() {
+        window.history.back();
+    }
+</script>
+<script type="text/javascript" src="processing.js"></script>
+</html>

@@ -27,16 +27,20 @@
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
+
+  * {
+            width: 100%;
+        }
   </style>
   </head>
   <body>
   <h2>Refresh the page to change the colors!</h2>
 
-    <div class="vertical-flex-container">
-      <canvas data-processing-sources="Dragging_Rectangles.pde"></canvas>
-      <canvas data-processing-sources="Googly_Eyes.pde"></canvas>
-      <canvas data-processing-sources="Gradient_Circle.pde"></canvas>
-    </div>
+  <div class="vertical-flex-container">
+    <canvas data-processing-sources="Dragging_Rectangles.pde" width="100vw" height="100vw"></canvas>
+    <canvas data-processing-sources="Googly_Eyes.pde" width="100vw" height="100vw"></canvas>
+    <canvas data-processing-sources="Gradient_Circle.pde" width="100vw" height="100vw"></canvas>
+</div>
 
     <div>
       <p>
@@ -60,4 +64,11 @@
 
 
   </body>
+  <script>
+    function setWidth(width) {
+        var canvas = document.getElementById("myCanvas");
+        canvas.width = width;
+    }
+</script>
+<script type="text/javascript" src="processing.js"></script>
   </html>

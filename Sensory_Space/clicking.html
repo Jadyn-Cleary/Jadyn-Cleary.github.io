@@ -27,16 +27,22 @@
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
+
+  * {
+            width: 100%;
+        }
+        
   </style>
   </head>
   <body>
   
     <h2>Refresh the page to change the colors!</h2>
+
     <div class="vertical-flex-container">
-      <canvas data-processing-sources="Bubble_Pop.pde"></canvas>
-      <canvas data-processing-sources="Circle_Move.pde"></canvas>
-      <canvas data-processing-sources="Color_Shapes.pde"></canvas>
-    </div>
+      <canvas data-processing-sources="Color_Shapes.pde" width="100vw" height="100vw"></canvas>
+      <canvas data-processing-sources="Circle_Move.pde" width="100vw" height="100vw"></canvas>
+      <canvas data-processing-sources="Bubble_Pop.pde" width="100vw" height="100vw"></canvas>
+  </div>
 
     <div>
       <p>
@@ -60,4 +66,11 @@
 
 
   </body>
+  <script>
+    function setWidth(width) {
+        var canvas = document.getElementById("myCanvas");
+        canvas.width = width;
+    }
+</script>
+<script type="text/javascript" src="processing.js"></script>
   </html>

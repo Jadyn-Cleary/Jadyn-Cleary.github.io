@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
     background-color: white;
 }
@@ -48,40 +52,96 @@ button {
   margin-left: 150px;
   margin-right: 150px;
 }
+@media screen and (max-width: 1000px) {
+  .row {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      min-height: 20px;
+      min-height: max-content;
+      text-align: center;
+      justify-content: space-around;
+      margin: 1rem 1rem;
+      padding: 2rem 2rem;
+  }
+}
 
-.slidecontainer {
-    width: 50%; /* Width of the outside container */
+@media screen and (max-width: 800px) {
+  .row {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      min-height: 20px;
+      min-height: max-content;
+      text-align: stretch;
+      justify-content: space-around;
+      margin: 1rem 1rem;
+      padding: 1rem 1rem;
   }
-  
-  /* The slider itself */
-  .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 15px;
-    border-radius: 5px;   
-    background: #000000;
-    outline: none;
-    opacity: 1;
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      min-height: 20px;
+      min-height: max-content;
+      text-align: center;
+      justify-content: space-around;
+      margin: 0rem 0rem;
+      padding: 0rem 0rem;
+      font-size: .5rem;
   }
-  
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%; 
-    border: #000000;
-    border-width: 2pt;
-    background: #ffffff;
-    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .container {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: stretch;
+      max-width: 90%;
+      min-width: 200px;
+      min-height: 100%;
+      justify-content: stretch;
+      text-align: center;
+      font-size: .5rem;
+      height: 100vw;
+      margin: 1rem 1rem;
+      padding: 1rem 1rem;
+      font-size: .8rem;
   }
-  
-  .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: #000000;
-    border-width: 2pt;
-    background: #ffffff;
-    cursor: pointer;
+}
+
+@media screen and (max-width: 0px) {
+  .container {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: stretch;
+      max-width: 90%;
+      min-width: 200px;
+      min-height: 100%;
+      justify-content: stretch;
+      text-align: center;
+      font-size: .5rem;
+      height: 100vw;
+      margin: 1rem 1rem;
+      padding: 1rem 1rem;
+      font-size: 1rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .controls {
+      flex: 1 1 100%;
+      height: 100%;
+      max-height: 10%;
+      min-height: max-content;
+      margin: 0rem 2rem;
+      padding: 2rem 1rem;
+  }
+}
