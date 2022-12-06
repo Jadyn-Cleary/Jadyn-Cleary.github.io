@@ -34,7 +34,9 @@ button {
   text-align: center;
   text-decoration: none;
   align-self: center;
-  margin-left: auto;
+  justify-content: baseline;
+  position: absolute;
+  margin: auto;
 }
 
 .flex-container{
@@ -49,8 +51,8 @@ button {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 @media screen and (max-width: 1000px) {
   .row {
