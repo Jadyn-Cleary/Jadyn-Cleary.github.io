@@ -47,7 +47,7 @@ img {
 }
 
 button {
-  background-color: none;
+  background-color: transparent;
   border: none;
   text-align: center;
   text-decoration: none;
