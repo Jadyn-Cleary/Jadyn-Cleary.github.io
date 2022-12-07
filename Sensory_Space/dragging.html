@@ -9,25 +9,7 @@
 
   <script type="text/javascript" src="processing.js"></script>
 
-  <style>
-    /* code snippet taken from https://www.w3schools.com/howto/howto_css_arrows.asp */
-  .arrow {
-    border: solid black;
-    border-width: 0 10px 10px 0;
-    display: inline-block;
-    padding: 10px;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-
+  <style>    
   * {
             width: 100%;
         }
@@ -42,14 +24,14 @@
     <canvas data-processing-sources="Gradient_Circle.pde" width="100vw" height="100vw"></canvas>
 </div>
 
-    <div>
+   <div>
       <p>
-      <button onClick="previous()" 
-                id="backward"><i class="arrow left"></i>
-         </button>
-      <button onclick="next()" 
-                id="forward"><i class="arrow right"></i>
-         </button>
+        <button onClick="previous()" 
+                  id="backward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/left.png?raw=true" alt="back button"/>
+          </button>
+        <button onclick="next()" 
+                  id="forward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/right.png?raw=true" alt="forward button"/>
+          </button>
       </p>
     </div>
 
