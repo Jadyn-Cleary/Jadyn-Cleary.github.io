@@ -9,17 +9,20 @@ body {
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: transparent;
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: transparent;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: medium;
+    background-color: transparent;
 }
 
 img {
