@@ -52,8 +52,8 @@ button {
   text-align: center;
   text-decoration: none;
   align-self: center;
-  /* justify-content: baseline;
-  position: absolute; */
+  justify-content: baseline;
+  position: absolute;
   margin: auto;
 }
 
