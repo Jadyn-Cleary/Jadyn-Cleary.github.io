@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sensory Space</title>
   <link rel="stylesheet" href="style.css">
 
   <style>
     /* code snippet taken from https://www.w3schools.com/howto/howto_css_arrows.asp */
-  .arrow {
-    border: solid black;
-    border-width: 0 10px 10px 0;
-    display: inline-block;
-    padding: 10px;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
+    .arrow {
+      border: solid black;
+      border-width: 0 10px 10px 0;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
   </style>
 
-  </head>
-  <body>
-    <h1>Virtual Sensory Space</h1>
-    <h2>Choose your audio type</h2>
+</head>
+<body>
+  <h1>Virtual Sensory Space</h1>
+  <h2>Choose your audio type</h2>
 
-    <div class="flex-container">
+  <div class="flex-container">
 
-      <div>
-        <a href="https://jadyn-cleary.github.io/Sensory_Space/noise.html">
-            <img src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/Sensory_Space/images/noise.png?raw=true" alt="button to enter noise page"/>
-        </a>
-      </div>
-
-      <div>
-        <a href="https://jadyn-cleary.github.io/Sensory_Space/nature.html">
-            <img src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/Sensory_Space/images/nature.png?raw=true" alt="button to enter nature sounds page"/>
-        </a>
-      </div>
-
-      <div>
-        <a href="https://jadyn-cleary.github.io/Sensory_Space/talking.html">
-            <img src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/Sensory_Space/images/talking.png?raw=true" alt="button to enter talking page"/>
-        </a>
-      </div>
-
+    <div>
+      <a href="https://jadyn-cleary.github.io/Sensory_Space/noise.html">
+        <img
+          src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/Sensory_Space/images/noise.png?raw=true"
+          alt="button to enter noise page" />
+      </a>
     </div>
 
     <div>
-      <p>
-        <button onClick="previous()" 
-                  id="backward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/left.png?raw=true" alt="back button"/>
-          </button>
-        <button onclick="next()" 
-                  id="forward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/right.png?raw=true" alt="forward button"/>
-          </button>
-      </p>
+      <a href="https://jadyn-cleary.github.io/Sensory_Space/nature.html">
+        <img
+          src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/Sensory_Space/images/nature.png?raw=true"
+          alt="button to enter nature sounds page" />
+      </a>
     </div>
 
-    <script>
-      function next() {
-          window.history.forward();
-      }
-      function previous() {
-          window.history.back();
-      }
-    </script>
+    <div>
+      <a href="https://jadyn-cleary.github.io/Sensory_Space/talking.html">
+        <img
+          src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/Sensory_Space/images/talking.png?raw=true"
+          alt="button to enter talking page" />
+      </a>
+    </div>
 
-  </body>
-  </html>
+  </div>
+
+  <div>
+    <p>
+      <button onClick="previous()" id="backward"><img style="max-width: 10%;"
+          src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/left.png?raw=true"
+          alt="back button" />
+      </button>
+      <button onclick="next()" id="forward"><img style="max-width: 10%;"
+          src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/right.png?raw=true"
+          alt="forward button" />
+      </button>
+    </p>
+  </div>
+
+  <script>
+    function next() {
+      window.history.forward();
+    }
+    function previous() {
+      window.history.back();
+    }
+  </script>
+
+</body>
+<script src="Scripts/main.js"></script>
+<script src="Scripts/jscolor.js"></script>
+</html>

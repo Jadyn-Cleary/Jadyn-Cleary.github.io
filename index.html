@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sensory Space</title>
-  <link rel="stylesheet" href="/Sensory_Space/style.css">
+  <link rel="stylesheet" href="Sensory_Space/style.css">
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-  <body>
-    <h1 style="color: black;">Virtual Sensory Space</h1>
+<body>
+  <h1>Virtual Sensory Space</h1>
 
-    <div class="flex-container">
-      <p>
-        <form>
-          <label for="bgcolor">
-            <h2>Choose your background color</h2>
-          </label>
-          <input class="color" id="bgcolor" value="FFFFFF">
-        </form>
-      </p>
+  <div class="flex-container">
+    <p>
+    <form>
+      <label for="bgcolor">
+        <h2>Choose your background color</h2>
+      </label>
+      <input class="color" id="bgcolor" value="#FFFFFF">
+    </form>
+    </p>
   </div>
 
-    <div>
-      <p>
-      <button onClick="previous()" 
-                id="backward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/left.png?raw=true" alt="back button"/>
-         </button>
-      <button onclick="next()" 
-                id="forward"><a href="https://jadyn-cleary.github.io/Sensory_Space/sense_selection.html"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/right.png?raw=true" alt="forward button"/></a>
-         </button>
-      </p>
-    </div>
+  <div>
+    <p>
+      <button onClick="previous()" id="backward"><img style="max-width: 10%;"
+          src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/left.png?raw=true"
+          alt="back button" />
+      </button>
+      <button onclick="next()" id="forward"><a
+          href="https://jadyn-cleary.github.io/Sensory_Space/sense_selection.html"><img style="max-width: 10%;"
+            src="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/right.png?raw=true"
+            alt="forward button" /></a>
+      </button>
+    </p>
+  </div>
+</body>
 
-    <script>
-      function next() {
-          window.history.forward();
-      }
-      function previous() {
-          window.history.back();
-      }
-    </script>
-    
-  </body>
-  <script src="Scripts/main.js"></script>
-  <script src="Scripts/jscolor.js"></script>
-  <script src ="Scripts/colorSave.js"></script>
+
+<script>
+  function next() {
+    window.history.forward();
+  }
+  function previous() {
+    window.history.back();
+  }
+</script>
+
+<script src="Scripts/main.js"></script>
+<script src="Scripts/jscolor.js"></script>
 </html>

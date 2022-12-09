@@ -1,11 +1,12 @@
 {
-    "include": [
-      "*.js", 
-      "libraries/*.js", 
-      "Scripts/main.js", 
-      "Scripts/jscolor.js", 
-      "Scripts/event.js", 
-      "Scripts/colorSave.js",
-      "processing.js"
-   ]
-  }
+  "include": [
+    "*.js",
+    "libraries/*.js",
+    "Scripts/main.js",
+    "Scripts/jscolor.js",
+    "Scripts/event.js",
+    "Scripts/colorSave.js",
+    "processing.js",
+    "Scripts/event.js"
+  ]
+}

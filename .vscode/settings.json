@@ -1,0 +1,26 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#c8f353",
+    "activityBar.background": "#c8f353",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#0f9cd1",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#c8f353",
+    "statusBar.background": "#b9f023",
+    "statusBar.border": "#b9f023",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#9dd20e",
+    "statusBarItem.remoteBackground": "#b9f023",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#b9f023",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.border": "#b9f023",
+    "titleBar.inactiveBackground": "#b9f02399",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#b9f023",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "One Monokai Italics"
+}
