@@ -7,28 +7,10 @@
   <title>Sensory Space</title>
   <link rel="stylesheet" href="style.css">
 
-  <style>
-    /* code snippet taken from https://www.w3schools.com/howto/howto_css_arrows.asp */
-  .arrow {
-    border: solid black;
-    border-width: 0 10px 10px 0;
-    display: inline-block;
-    padding: 10px;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-  </style>
-
   </head>
   <body>
+
+    <input class="color" id="bgcolor" value="#FFFFFF">
     <h1>Virtual Sensory Space</h1>
     <h2>Choose your audio type</h2>
 
@@ -73,6 +55,7 @@
           window.history.back();
       }
     </script>
-
+    <script src="Scripts/main.js"></script>
+    <script src="Scripts/jscolor.js"></script>
   </body>
   </html>
