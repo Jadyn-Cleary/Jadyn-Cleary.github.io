@@ -30,16 +30,16 @@
     <canvas data-processing-sources="Gradient_Circle.pde"></canvas>
   </div>
 
-   <div>
-      <p>
-        <button onClick="previous()" 
-                  id="backward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/left.png?raw=true" alt="back button"/>
-          </button>
-        <button onclick="next()" 
-                  id="forward"><img style="max-width: 10%;" src ="https://github.com/Jadyn-Cleary/Jadyn-Cleary.github.io/blob/main/images/right.png?raw=true" alt="forward button"/>
-          </button>
-      </p>
-    </div>
+  <div>
+    <p>
+      <button onClick="previous()" 
+                id="backward"><img style="max-width: 10%;" src ="images/left.png" alt="back button"/>
+        </button>
+      <button onclick="next()" 
+                id="forward"><img style="max-width: 10%;" src ="images/right.png" alt="forward button"/>
+        </button>
+    </p>
+  </div>
 
     <script>
       function next() {
@@ -50,6 +50,11 @@
       }
     </script>
 
+  <p hidden>
+    <input class="color" id="bgcolor" value="#FFFFFF">
+  </p>
+  <script src="Scripts/main.js"></script>
+  <script src="Scripts/jscolor.js"></script>
 
   </body>
   <script>
