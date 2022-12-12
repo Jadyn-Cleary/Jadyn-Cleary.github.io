@@ -31,7 +31,6 @@ button {
   display: inline-flex;
   background-color: transparent;
   border: none;
-  justify-content: baseline;
   align-items: center;
   text-decoration: none;
   align-self: center;
@@ -147,8 +146,4 @@ button {
     margin: 1rem 1rem;
     padding: 1rem 1rem;
   }
-}
-
-.bgcolor {
-  background-color: #ffffff;
 }
