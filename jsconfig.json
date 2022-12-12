@@ -2,11 +2,11 @@
   "include": [
     "*.js",
     "libraries/*.js",
-    "Scripts/main.js",
-    "Scripts/jscolor.js",
-    "Scripts/event.js",
-    "Scripts/colorSave.js",
+    "Sensory_Space/Scripts/main.js",
+    "Sensory_Space/Scripts/jscolor.js",
+    "Sensory_Space/Scripts/event.js",
+    "Sensory_Space/Scripts/colorSave.js",
     "processing.js",
-    "Scripts/event.js"
+    "Sensory_Space/Scripts/event.js"
   ]
 }
