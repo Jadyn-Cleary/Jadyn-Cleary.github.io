@@ -5,9 +5,6 @@ void setup() {
 }
 
 void draw() {
-  textSize(20);
-  fill(255);
-  text("press spacebar to clear screen", 10, 15);
   if(keyPressed) {
    if (key == ' ' || key == ' ') {
    clear();
