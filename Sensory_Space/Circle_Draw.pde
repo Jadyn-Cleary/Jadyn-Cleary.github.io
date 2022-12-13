@@ -5,11 +5,6 @@ void setup() {
 }
 
 void draw() {
-  if(keyPressed) {
-   if (key == ' ' || key == ' ') {
-   clear();
-   }
- } 
 }
 
 void mouseReleased(){

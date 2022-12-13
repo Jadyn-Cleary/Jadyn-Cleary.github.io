@@ -8,7 +8,7 @@ void setup() {
 
 
 void draw() {
-  clear();
+  background(0);
   c.display();
 }
 
