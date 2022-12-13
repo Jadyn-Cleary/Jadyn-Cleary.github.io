@@ -16,6 +16,7 @@ void setup() {
   }
 } // sets up the color and placement of each object
 void draw() {
+  clear();
   for(int i = 0; i < s.length; i++) {
     for(int j = 0; j < s.length; j++) {
       s[i][j].display();
@@ -28,8 +29,11 @@ void mouseReleased(){
     for(int j = 0; j < s.length; j++) {
       if ((mouseX >= s[i][j].xpos) && (mouseX <= s[i][j].xpos +s[i][j].w) && 
       (mouseY >= s[i][j].ypos) && (mouseY <= s[i][j].ypos + s[i][j].h)) {
-          fill(random(0,255),random(0,255),random(0,255));
-          s[i][j].xpos = -176;
+          float r = random(0,255);
+          float g = random(0,255);
+          float b = random(0,255);
+          s[i][j]= new Square(color(r,g,b),
+          s[i][j].xpos,s[i][j].ypos,175,175);
       } else {
         s[i][j].selected = false;
       }
@@ -56,7 +60,7 @@ class Square {
   } //sets up how to write the characteristics of the object "Square"
 
   void display() {
-    //rectMode(CENTER);
+    fill(c);
     rect(xpos,ypos,175,175);
   } //creates the position and size of the object "Square"
 }
