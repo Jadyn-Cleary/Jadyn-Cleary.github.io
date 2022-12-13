@@ -19,5 +19,6 @@ void mouseReleased(){
   fill(random(255), random(255), random(255));
   noStroke();
   float rand = random(30,100);
+  ellipseMode(CENTER);
   ellipse(mouseX, mouseY, rand, rand);
 }
