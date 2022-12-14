@@ -63,3 +63,4 @@ class Square {
     fill(c);
     rect(xpos,ypos,175,175);
   } //creates the position and size of the object "Square"
+  }
