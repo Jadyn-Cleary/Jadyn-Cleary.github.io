@@ -6,6 +6,7 @@ body {
      background-color: none;
      max-width: 700px;
      margin: auto;
+     border-image: url(images/border.png);
 }
 
 h1 {
