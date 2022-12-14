@@ -11,6 +11,7 @@
 
 body {
     background-color: none;
+    max-width: 1000px;
     min-width: 650px;
     margin: auto;
 }
