@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
+#borderimg {
+  border: 60px solid transparent;
+  padding: 80px;
+  border-image: url(images/border.png);
+  border-image-width: 100% 35%;
+}
+
 body {
-     background-color: none;
-     max-width: 700px;
-     margin: auto;
+    background-color: none;
+    max-width: 700px;
+    margin: auto;
 }
 
 h1 {
