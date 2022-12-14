@@ -15,9 +15,8 @@ void setup() {
     y-=675;
   }
 } // sets up the color and placement of each object
-
-
 void draw() {
+  clear();
   for(int i = 0; i < s.length; i++) {
     for(int j = 0; j < s.length; j++) {
       s[i][j].display();
@@ -64,4 +63,3 @@ class Square {
     fill(c);
     rect(xpos,ypos,175,175);
   } //creates the position and size of the object "Square"
-}
