@@ -3,10 +3,10 @@
 }
 
 #borderimg {
-  border: 30px solid transparent;
-  padding: 100px;
+  border: 60px solid transparent;
+  padding: 80px;
   border-image: url(images/border.png);
-  border-image-width: 100rem 30rem;
+  border-image-width: 100rem 35rem;
 }
 
 body {
